@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "name": "Kondapalli Aditya",
+    "shortName": "Aditya Kondapalli",
+    "title": "Mobile Solution Architect | Security SME",
+    "resumeUrl": "/Aditya_Kondapalli_Mobile_Architect_TOGAF.pdf"
+  },
+  "nav": {
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "App Showcase", "href": "#app-showcase" },
+      { "label": "Work Samples", "href": "#work" },
+      { "label": "Writing", "href": "#writing" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "headline": "Kondapalli Aditya",
+    "subhead": "Mobile Solution Architect | TOGAF® Certified | Security SME",
+    "tagline": "I architect mobile platforms that scale across clients and withstand adversarial attack — not just apps that ship. Mobile Solution Architect and TOGAF®-certified Enterprise Architecture Practitioner with 16+ years turning business capability into secure, reusable Android/iOS platforms for enterprise clients.",
+    "primaryCta": { "label": "View Work Samples", "href": "#work" },
+    "secondaryCta": { "label": "Download Resume", "href": "/Aditya_Kondapalli_Mobile_Architect_TOGAF.pdf" }
+  },
+  "about": {
+    "photo": {
+      "src": "/images/headshot-placeholder.jpg",
+      "alt": "Placeholder headshot of Kondapalli Aditya — replace with final photo"
+    },
+    "paragraphs": [
+      "Mobile security isn't an afterthought in my architecture — it's the foundation. Over 16+ years, I've built enterprise mobile platforms where OWASP Mobile Top 10 compliance, attestation, and tamper resistance are designed in from day one, backed by TOGAF® Enterprise Architecture Practitioner certification and target-state architectural rigor.",
+      "At Everi India, I own the mobile security governance framework protecting transactional features like Digital Wallet and Room Access: dynamic SSL/TLS pinning, Firebase App Check, and Play Integrity/App Attest verification, backed by automated application shielding through OneSpan and AppDome — enforced across a white-labeled Android (Kotlin, Jetpack Compose) and Ionic-Angular platform serving Gaming, Sports, Venues, and Loyalty clients from a single codebase. I drive that architecture and security standard across multiple agile delivery teams, authoring Architecture Decision Records that reduce onboarding time and technical debt.",
+      "Earlier, at Adeptech Systems, I led secure fintech payment development — Mobile POS and Digital Wallet modules — while personally resolving findings from Application Security Assessments and guiding a team of 15 engineers as technical lead. I use MobSF, Burp Suite, ZAP, and ImmuniWeb as working tools, not resume keywords, and hold a Certified Cloud Security Professional (CCSP) credential to back the practice with formal rigor across AWS, Azure, and GCP environments."
+    ]
+  },
+  "skills": {
+    "groups": [
+      {
+        "label": "Languages",
+        "tags": ["Kotlin", "Java", "Swift", "JavaScript", "JSON"]
+      },
+      {
+        "label": "Mobile Frameworks",
+        "tags": ["Android SDK", "Jetpack Compose", "MVVM", "MVP", "Clean Architecture", "Ionic", "Cordova", "REST/SOAP Integration"]
+      },
+      {
+        "label": "Cloud/Backend",
+        "tags": ["AWS", "AWS Lambda", "Azure", "Google Cloud", "Firebase", "Azure Pipelines", "GitHub Actions", "Fastlane", "CI/CD Pipeline Engineering"]
+      },
+      {
+        "label": "Security",
+        "tags": ["OWASP Mobile Top 10", "Play Integrity API", "Apple App Attest", "SSL/TLS Pinning", "Firebase App Check", "OneSpan", "AppDome", "MobSF", "Burp Suite", "ZAP", "ImmuniWeb", "DevSecOps", "Reverse Engineering"]
+      }
+    ]
+  },
+  "appShowcase": [
+    {
+      "id": "profile-app",
+      "title": "Profile App",
+      "status": "coming-soon",
+      "description": "A KMP/Compose Multiplatform app sharing this site's exact design tokens, demonstrating end-to-end architecture ownership from design system to shipped binary.",
+      "screenshot": { "src": "/images/app-profile-placeholder.png", "alt": "Profile App preview — coming soon" },
+      "techStack": ["Kotlin Multiplatform", "Compose Multiplatform", "Firebase"],
+      "androidPackageId": null,
+      "iosAppId": null,
+      "githubUrl": null
+    },
+    {
+      "id": "security-demos",
+      "title": "Mobile Security Demos",
+      "status": "coming-soon",
+      "description": "Live demonstrations of SSL/TLS pinning bypass resistance, Firebase App Check enforcement, and Play Integrity/App Attest verification flows.",
+      "screenshot": { "src": "/images/app-security-placeholder.png", "alt": "Mobile Security Demos preview — coming soon" },
+      "techStack": ["Play Integrity API", "App Attest", "Firebase App Check", "SSL Pinning"],
+      "androidPackageId": null,
+      "iosAppId": null,
+      "githubUrl": null
+    },
+    {
+      "id": "integration-demos",
+      "title": "Third-Party Integration Demos",
+      "status": "coming-soon",
+      "description": "Reference implementations of AWS Lambda and Firebase Cloud Functions backing mobile clients, showing cloud-integration patterns from the white-label platform work.",
+      "screenshot": { "src": "/images/app-integration-placeholder.png", "alt": "Integration Demos preview — coming soon" },
+      "techStack": ["AWS Lambda", "API Gateway", "Firebase Cloud Functions"],
+      "androidPackageId": null,
+      "iosAppId": null,
+      "githubUrl": null
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "everi-platform",
+      "title": "White-Labeled Mobile Platform for Multi-Vertical Delivery",
+      "org": "Everi India",
+      "period": "2018–Present",
+      "problem": "Multiple business lines (Gaming, Sports, Venues, Loyalty) needed distinct branded apps without maintaining separate codebases for each client.",
+      "role": "Lead Software Engineer I — Mobile Solution Architecture, owning cross-platform architecture strategy end-to-end.",
+      "approach": "Architected a configurable, white-labeled platform using MVVM and Clean Architecture to decouple business logic from UI, enabling SDK-style customization from a single maintained codebase. Paired this with automated CI/CD pipelines (Azure DevOps, GitHub Actions) embedding security gates (Checkmarx, SonarQube) for policy enforcement and white-label app generation.",
+      "outcome": "Consistent design patterns and technical standards adopted across multiple agile delivery teams; deployment time reduced.",
+      "outcomeFlag": "Resume states \"cutting deployment time\" without a percentage — add a specific figure if available."
+    },
+    {
+      "id": "everi-security",
+      "title": "OWASP-Aligned Mobile Security Framework",
+      "org": "Everi India",
+      "period": "2018–Present",
+      "problem": "Transactional mobile features (Digital Wallet, Room Access, Food Ordering) needed defense against reverse engineering, MITM attacks, and app tampering across a white-label platform serving multiple clients.",
+      "role": "Designed and enforced the mobile security governance framework.",
+      "approach": "Implemented dynamic SSL pinning, Firebase App Check, and automated application shielding (OneSpan/AppDome), all aligned to OWASP Mobile Top 10 standards.",
+      "outcome": "A repeatable security baseline enforced across the shared platform rather than per-client rework.",
+      "outcomeFlag": "No quantified metric (e.g., vulnerabilities blocked, audit pass rate, incident reduction) is given — add one if available."
+    },
+    {
+      "id": "mize-metadata-framework",
+      "title": "Metadata-Driven Native UI Framework",
+      "org": "Mize Software Solutions",
+      "period": "2015–2018",
+      "problem": "New feature development for warranty-management workflows was slow because UI had to be hand-built for each enterprise client.",
+      "role": "Technical Lead — Mobile Platform Architecture, leading a cross-functional team of 8 engineers.",
+      "approach": "Designed a cloud-native \"Write Once, Configure Anywhere\" framework that rendered native UI components from configurable metadata, combined with a data-synchronization strategy using RESTful APIs and intelligent local caching.",
+      "outcome": "Cut new feature development time by 70% and boosted application throughput by 40% during peak traffic.",
+      "outcomeFlag": null
+    },
+    {
+      "id": "adeptech-fintech",
+      "title": "Secure Fintech Payment Platform",
+      "org": "Adeptech Systems",
+      "period": "2012–2015",
+      "problem": "Enterprise fintech clients needed real-time, secure payment capture on Android devices, integrating third-party hardware for card swiping and tax payments.",
+      "role": "Senior Android Developer and technical lead/SPOC, guiding a team of 15 engineers.",
+      "approach": "Led end-to-end development of Mobile POS and Official Payments solutions, integrating external hardware SDKs (MagTek, IDTECH); implemented Digital Wallet and transaction-management modules while participating in Application Security Assessments and resolving vulnerability findings.",
+      "outcome": "Delivered partial refunds, void transactions, and payment history reporting features into production.",
+      "outcomeFlag": "No transaction volume, revenue, or defect-reduction figure available — add one if you have it."
+    }
+  ],
+  "writingFeed": {
+    "emptyStateMessage": "New posts coming soon — check back for architecture and mobile security write-ups.",
+    "posts": []
+  },
+  "contact": {
+    "email": "aditya0103@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/aditya-kondapalli",
+    "credly": "https://www.credly.com/users/aditya-kondapalli/badges",
+    "phone": null,
+    "resumeUrl": "/Aditya_Kondapalli_Mobile_Architect_TOGAF.pdf",
+    "certifications": [
+      "TOGAF® Enterprise Architecture Practitioner — The Open Group, 2025",
+      "TOGAF® Enterprise Architecture Foundation — The Open Group, 2025",
+      "Cloud Architect Program — Simplilearn, 2023",
+      "Certified Cloud Security Professional (CCSP) Course — Simplilearn, 2023"
+    ]
+  }
+}
